@@ -1,8 +1,8 @@
 class Freeagent < Formula
   desc "Command-line interface for the FreeAgent accounting API"
   homepage "https://github.com/dinoconstantinou87/FreeAgent"
-  url "https://github.com/dinoconstantinou87/FreeAgent/releases/download/v0.5.0/freeagent-v0.5.0-macos-universal.tar.gz"
-  sha256 "59c3f9daa1041a233cf952e5d799980caeb1545e6b93990a3248d92a15fb9f31"
+  url "https://github.com/dinoconstantinou87/FreeAgent/releases/download/v0.6.0/freeagent-v0.6.0-macos-universal.tar.gz"
+  sha256 "3c20fa06c1fb8e4ab9d177f98071573f8f0717468475b73405a948a217844096"
   license "MIT"
 
   depends_on :macos
