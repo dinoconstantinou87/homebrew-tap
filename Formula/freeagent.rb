@@ -1,8 +1,8 @@
 class Freeagent < Formula
   desc "Command-line interface for the FreeAgent accounting API"
   homepage "https://github.com/dinoconstantinou87/FreeAgent"
-  url "https://github.com/dinoconstantinou87/FreeAgent/releases/download/v0.4.0/freeagent-v0.4.0-macos-universal.tar.gz"
-  sha256 "771ea00988d76c8445f9bcc0af9e54a7d73e945cd24b07709beb6b8e36975592"
+  url "https://github.com/dinoconstantinou87/FreeAgent/releases/download/v0.5.0/freeagent-v0.5.0-macos-universal.tar.gz"
+  sha256 "59c3f9daa1041a233cf952e5d799980caeb1545e6b93990a3248d92a15fb9f31"
   license "MIT"
 
   depends_on :macos
@@ -14,6 +14,6 @@ class Freeagent < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/freeagent --version")
+    assert_match version.to_s, shell_output("#{bin}/freeagent --version")
   end
 end
